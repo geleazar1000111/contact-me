@@ -14,7 +14,7 @@
     <div class="ui container">
       <h1 class="ui huge header">Contact Me!</h1>
       <div id="error-message"></div>
-      <form id="contact-form" class="ui form" method="POST">
+      <form action="/send-email" method="POST" id="contact-form" class="ui form">
         <div class="field">
           <label>First Name</label>
           <input type="text" name="first-name" placeholder="First Name" />
@@ -29,7 +29,7 @@
         </div>
         <div class="field">
           <label>Text</label>
-          <textarea></textarea>
+          <textarea name="message"></textarea>
         </div>
 
         <button class="ui button green" type="submit">Submit</button>
