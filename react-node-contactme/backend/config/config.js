@@ -1,0 +1,4 @@
+module.exports = {
+  USER: 'SENDER EMAIL ADDRESS',
+  PASS: 'SENDER EMAIL PASSWORD'
+};
